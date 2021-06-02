@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+    padding: 0 10px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 350px;
+}
+
+input {
+    width: 550px;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    height: 35px;
+    border: 1px solid #bbb;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+#buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+#buttons button {
+    padding: 5px 13px;
+    outline: bibe;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-family: arial, sans-serif;
+    color: #70757a;
+}
+
+#input-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.search {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+#input-container-right {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+#left-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#right-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.material-icons.mic {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
